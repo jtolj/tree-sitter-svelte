@@ -7,8 +7,6 @@ on:
 jobs:
   github:
     uses: tree-sitter/workflows/.github/workflows/release.yml@main
-    with:
-      attestations: true
     permissions:
       contents: write
       id-token: write
